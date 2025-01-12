@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:wheat;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: crimson;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+
+}
+
+.price {
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 20px;
+
+}
+
+#section1, #section2 {
+    padding: 40px 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.card-body{
+    background-color:lightseagreen ;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-body {
+        text-align: center;
+       
+    }
+}
+
